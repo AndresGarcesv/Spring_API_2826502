@@ -4,12 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import
 
 
 @AllArgsConstructor
 @Getter
 @Setter
 @Builder
+@entity
+@Table(name ='products')
 public class Product {
 
     private Long id;
